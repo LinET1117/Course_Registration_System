@@ -26,7 +26,7 @@ public class Main {
 
     }
     reader.close();
-    FileWriter writer = new FileWriter("sorted_numbers.csv");
+    FileWriter writer = new FileWriter("new_DB_students.csv");
     writer.write("student_id, course_id\n");
     for (List<String> list : map.values()) {
         for (String val : list) {
